@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+*.env
+
+# Data (too large / not meant for version control)
+data/*.csv
+data/*.csv.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# Models (optional — remove if you want to version trained models)
+models/*.pkl
+models/*.json
